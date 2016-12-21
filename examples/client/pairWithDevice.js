@@ -7,6 +7,7 @@ remote
     .then(
         function () {
             console.log('success!');
+            remote.
         },
         function (err) {
             console.log('failure', err);

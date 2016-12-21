@@ -1,4 +1,4 @@
-var RemoteFinder = require('../lib/RemoteFinder');
+var RemoteFinder = require('../../lib/client/RemoteFinder');
 var finder = new RemoteFinder();
 
 finder.on('found', function(Remote) {

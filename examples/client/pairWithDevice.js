@@ -1,6 +1,6 @@
-var Remote = require('../lib/Remote');
+var Remote = require('../../lib/client/Remote');
 
-var remote = new Remote('192.168.1.140');
+var remote = new Remote('192.168.88.214');
 
 remote.pair().then(function() {
   console.log('success!');

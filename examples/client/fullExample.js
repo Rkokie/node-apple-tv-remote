@@ -1,5 +1,5 @@
-var RemoteFinder = require('../lib/RemoteFinder');
-var Remote = require('../lib/Remote');
+var RemoteFinder = require('../../lib/client/RemoteFinder');
+var Remote = require('../../lib/client/Remote');
 
 var FOUND_EVENT = 'found';
 

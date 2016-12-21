@@ -1,6 +1,6 @@
 var Remote = require('../../index').client;
 
-var remote = new Remote('Apple-TV.local.');
+var remote = new Remote('192.168.88.214');
 // remote.serverInfo().then(function(serverInfo) {
 //   console.log('Got Server Info',serverInfo);
 // });

@@ -9,8 +9,8 @@ var finder = new RemoteFinder();
 
 var foundRemote = function(remote) {
   // We are only looking for one
-  if (remote.ipAddress === hostName) {
-    console.log('Found new Remote:', remote.ipAddress);
+  if (remote.host === hostName) {
+    console.log('Found new Remote:', remote.host);
     console.log('Pairing with ' + hostName);
     finder.stopSearching();
     finder.removeAllListeners(FOUND_EVENT);

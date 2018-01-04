@@ -7,3 +7,11 @@ All thanks to:
 * https://github.com/jkiddo/jolivia/blob/64c8f1c87512476a06da2c4fdfa357e7918f83ac/jolivia.dacp/src/main/java/org/dyndns/jkiddo/service/daap/client/Session.java
 * http://pastebin.com/mDHc353A
 * http://jinxidoru.blogspot.com/2009/06/itunes-remote-pairing-code.html
+
+### Requirements
+- `sudo apt-get install build-essential`
+- `sudo apt-get install libavahi-compat-libdnssd-dev`
+
+### Pre-startup
+`sudo systemctl start avahi-daemon`
+`sudo systemctl start dbus`

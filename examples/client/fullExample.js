@@ -3,7 +3,7 @@ var Remote = require('../../lib/client/Remote');
 
 var FOUND_EVENT = 'found';
 
-var hostName = '192.168.150.125';
+var hostName = 'Apple-TV.local.';
 
 var finder = new RemoteFinder();
 

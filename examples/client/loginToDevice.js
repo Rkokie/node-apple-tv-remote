@@ -1,13 +1,13 @@
 var Remote = require('../../index').client;
 
-var remote = new Remote('Apple-TV.local.');
+var remote = new Remote('192.168.150.125');
 // remote.serverInfo().then(function(serverInfo) {
 //   console.log('Got Server Info',serverInfo);
 // });
 
-// remote.ctrlInit().then(function(serverInfo) {
-//   console.log('Got ctrlInit',serverInfo);
-// });
+remote.ctrlInit().then(function(serverInfo) {
+   console.log('Got ctrlInit',serverInfo);
+});
 //52CA7D0769D1059A1DA67D7A470949B3
 //F2E909A89C228711247653D4E97031C600DBCBEB
 
